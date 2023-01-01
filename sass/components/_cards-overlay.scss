@@ -1,0 +1,32 @@
+.cards-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.cards img {
+  display: block;
+}
+
+.cards-overlay__text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 63px 24px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay-color);
+
+  transform: translateY(100%);
+  transition: transform 250ms var(--timing-function);
+
+
+}
+
+.cards-overlay__text p {
+  color: var(--white-color);
+
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}

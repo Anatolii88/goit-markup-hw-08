@@ -1,0 +1,41 @@
+.footer-network {
+  display: flex;
+}
+
+
+
+.footer-network__link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px 12px;
+
+  border-radius: 50%;
+  color: var(--white-color);
+  background-color: var(--footer-icons-color);
+
+  transition: background-color 250ms var(--timing-function);
+
+&:hover,
+&:focus {
+    background-color: var(--blue-color);
+
+  }
+
+
+}
+
+.footer-network__sprites {
+  fill: currentColor;
+}
+
+
+
+.footer-network__item {
+  margin-right: 10px;
+
+  &:last-child {
+      margin-right: 0;
+    }
+}
+

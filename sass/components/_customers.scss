@@ -1,0 +1,43 @@
+.customers {
+  display: flex;
+  justify-content: center;
+
+}
+
+.customers__item {
+  margin-right: 10px;
+
+  &:last-child {
+      margin-right: 0;
+    }
+}
+
+
+
+.customers__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid var(--social-icons-color);
+  border-radius: 4px;
+  color: var(--social-icons-color);
+
+  transition: color 250ms var(--timing-function),
+    border 250ms var(--timing-function);
+
+&:hover,
+&:focus {
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+  }
+
+
+}
+
+
+.customers__sprite {
+  fill: currentColor;
+}

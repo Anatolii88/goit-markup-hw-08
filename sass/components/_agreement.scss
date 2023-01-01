@@ -1,0 +1,56 @@
+.agreement {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+.agreement__checkbox {
+  display: flex;
+  align-items: center;
+
+}
+
+.agreement__input {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+
+.agreement__svg {
+  margin-right: 7px;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: var(--white-color);
+  transition: border-color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function);
+}
+
+.agreement__input:checked~.agreement__svg {
+  border-color: var(--blue-color);
+  background-color: var(--blue-color);
+}
+
+
+.agreement__text {
+  color: var(--primary-color-text);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.agreement__link {
+  color: var(--blue-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}

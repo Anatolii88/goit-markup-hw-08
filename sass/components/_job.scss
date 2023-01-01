@@ -1,0 +1,49 @@
+.job {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job__item {
+
+  width: 370px;
+  margin-right: 30px;
+
+  &:nth-child(3n) {
+      margin-right: 0;
+    }
+}
+
+
+.job img {
+  display: block;
+}
+
+
+.job__thumb {
+  position: relative;
+}
+
+.job__text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.job__text p {
+  padding: 0;
+  margin: 0;
+
+  color: var(--white-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
