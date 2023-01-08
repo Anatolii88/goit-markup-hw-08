@@ -6,7 +6,7 @@
 
 
 .cards__item {
-  width: 370px;
+  
   box-shadow: 0;
   transition: box-shadow 250ms var(--timing-function);
 
@@ -42,4 +42,19 @@
     }
 }
 
+
+.cards__item img {
+  width: 100%;
+
+  @media screen and (min-width: 480px){
+    width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+  }
+  
+}
 
