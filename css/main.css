@@ -1180,10 +1180,8 @@ img {
   background-color: var(--grey-bg-color);
 }
 
-@media screen and (min-width: 768px) {
-  .logo-and-contacts {
-    margin-bottom: 60px;
-  }
+.logo-and-contacts {
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .logo-and-contacts {
